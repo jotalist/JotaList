@@ -1,0 +1,132 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+  
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+a {
+  color: #717171;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.form-reset {
+  max-width: 100%;
+/*   padding: 15px; */
+  margin: 0 auto;
+}
+.form-reset .form-rest-heading,
+.form-reset .checkbox {
+  margin-bottom: 10px;
+}
+.form-reset .checkbox {
+  font-weight: normal;
+}
+.form-reset .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-reset .form-control:focus {
+  z-index: 2;
+}
+.form-reset input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.title {
+	!important;
+  color: #525252;
+  font-size: 23px;
+  margin: 10px 40px 0;
+  padding: 20px 0 10px; 
+  font-weight: bold;}
+
+.InitiatePasswordReset .contents {
+  background: #fff;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+  margin: 100px auto 0;
+  position: relative;
+  max-width: 470px;
+  z-index: 682; }
+.InitiatePasswordReset .title {
+  color: #525252;
+  font-size: 23px;
+  margin: 10px 40px 0;
+  padding: 20px 0 10px; 
+  font-weight: bold;}
+.InitiatePasswordReset .standardForm {
+  max-width: 100%; }
+  .InitiatePasswordReset .standardForm input[type="email"] {
+    border-radius: 6px;
+    padding: 15px; }
+.InitiatePasswordReset .emailWrapper, .InitiatePasswordReset .messageText, .InitiatePasswordReset .helperText {
+  margin: 0;
+  padding: 5px 40px; }
+.InitiatePasswordReset .formFooter {
+  
+  margin-top: 10px; }
+.InitiatePasswordReset .successButton {
+  display: block; }
+.InitiatePasswordReset .hidden {
+  display: none; }
+
+  
+  .formFooter {
+  background: #f0f0f0;
+  border-radius: 0 0 0px 0px;
+  border-top: 1px solid #dadada;
+  clear: both;
+  padding: 10px 20px;
+}
+.formFooter .formFooterButtons {
+  float: right;
+}
+.formFooter:after {
+  content: "";
+  display: table;
+  clear: both;
+}

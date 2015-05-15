@@ -143,3 +143,755 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
 	at java.lang.Thread.run(Unknown Source):-1
 "
+"ERROR","http-bio-8080-exec-2","05/13/2015","12:28:33","",";Page /controller/login_process.cfm [C:\eclipse\workspace\JotaList\controller\login_process.cfm] not found;Page /controller/login_process.cfm [C:\eclipse\workspace\JotaList\controller\login_process.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312):312
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-5","05/13/2015","12:41:06","",";variable [ATTRIBUTES] doesn't exist;variable [ATTRIBUTES] doesn't exist
+	at railo.runtime.type.scope.UndefinedImpl.getCollection(UndefinedImpl.java:386):386
+	at model.main_cfm$cf.call(C:\eclipse\workspace\JotaList\model\main.cfm:5):5
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:909):909
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:813):813
+	at controller.main_cfm$cf.call(C:\eclipse\workspace\JotaList\controller\main.cfm:1):1
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:909):909
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310):310
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-4","05/13/2015","12:41:15","",";variable [ATTRIBUTES] doesn't exist;variable [ATTRIBUTES] doesn't exist
+	at railo.runtime.type.scope.UndefinedImpl.getCollection(UndefinedImpl.java:386):386
+	at model.main_cfm$cf.call(C:\eclipse\workspace\JotaList\model\main.cfm:8):8
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:909):909
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:813):813
+	at controller.main_cfm$cf.call(C:\eclipse\workspace\JotaList\controller\main.cfm:1):1
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:909):909
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312):312
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-7","05/13/2015","12:45:58","",";variable [NAME] doesn't exist;variable [NAME] doesn't exist
+	at railo.runtime.type.scope.UndefinedImpl.get(UndefinedImpl.java:208):208
+	at view.main_cfm$cf.call(C:\eclipse\workspace\JotaList\view\main.cfm:1):1
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:909):909
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:813):813
+	at controller.main_cfm$cf.call(C:\eclipse\workspace\JotaList\controller\main.cfm:2):2
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:909):909
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310):310
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-9","05/13/2015","12:46:09","",";variable [NAME] doesn't exist;variable [NAME] doesn't exist
+	at railo.runtime.type.scope.UndefinedImpl.get(UndefinedImpl.java:208):208
+	at view.main_cfm$cf.call(C:\eclipse\workspace\JotaList\view\main.cfm:1):1
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:909):909
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:813):813
+	at controller.main_cfm$cf.call(C:\eclipse\workspace\JotaList\controller\main.cfm:2):2
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:909):909
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312):312
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-6","05/13/2015","12:46:28","",";variable [NAME] doesn't exist;variable [NAME] doesn't exist
+	at railo.runtime.type.scope.UndefinedImpl.get(UndefinedImpl.java:208):208
+	at view.main_cfm$cf.call(C:\eclipse\workspace\JotaList\view\main.cfm:1):1
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:909):909
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:813):813
+	at controller.main_cfm$cf.call(C:\eclipse\workspace\JotaList\controller\main.cfm:2):2
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:909):909
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312):312
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-4","05/13/2015","12:47:41","",";variable [NAME] doesn't exist;variable [NAME] doesn't exist
+	at railo.runtime.type.scope.UndefinedImpl.get(UndefinedImpl.java:208):208
+	at view.main_cfm$cf.call(C:\eclipse\workspace\JotaList\view\main.cfm:1):1
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:909):909
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:813):813
+	at controller.main_cfm$cf.call(C:\eclipse\workspace\JotaList\controller\main.cfm:2):2
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:909):909
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310):310
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-1","05/13/2015","12:48:04","",";Page /controller/login_process.cfm [C:\eclipse\workspace\JotaList\controller\login_process.cfm] not found;Page /controller/login_process.cfm [C:\eclipse\workspace\JotaList\controller\login_process.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312):312
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-1","05/13/2015","12:48:05","",";Page /controller/login_process.cfm [C:\eclipse\workspace\JotaList\controller\login_process.cfm] not found;Page /controller/login_process.cfm [C:\eclipse\workspace\JotaList\controller\login_process.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312):312
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-9","05/13/2015","13:00:15","",";Page /controller/login_process.cfm [C:\eclipse\workspace\JotaList\controller\login_process.cfm] not found;Page /controller/login_process.cfm [C:\eclipse\workspace\JotaList\controller\login_process.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312):312
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-9","05/13/2015","13:00:17","",";Page /controller/login_process.cfm [C:\eclipse\workspace\JotaList\controller\login_process.cfm] not found;Page /controller/login_process.cfm [C:\eclipse\workspace\JotaList\controller\login_process.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312):312
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-9","05/14/2015","09:12:31","",";Page /view/login1.cfm [C:\eclipse\workspace\JotaList\view\login1.cfm] not found;Page /view/login1.cfm [C:\eclipse\workspace\JotaList\view\login1.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:813):813
+	at controller.main_cfm$cf.call(C:\eclipse\workspace\JotaList\controller\main.cfm:2):2
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:909):909
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312):312
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-5","05/14/2015","12:46:17","",";Page /password/reset/index.cfm [C:\eclipse\workspace\JotaList\password\reset\index.cfm] not found;Page /password/reset/index.cfm [C:\eclipse\workspace\JotaList\password\reset\index.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310):310
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-5","05/14/2015","12:48:23","",";Page /login/index.cfm [C:\eclipse\workspace\JotaList\login\index.cfm] not found;Page /login/index.cfm [C:\eclipse\workspace\JotaList\login\index.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312):312
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-5","05/14/2015","12:48:30","",";Page /login/login.cfm [C:\eclipse\workspace\JotaList\login\login.cfm] not found;Page /login/login.cfm [C:\eclipse\workspace\JotaList\login\login.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312):312
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-5","05/14/2015","12:54:00","",";Page /view/login/login.cfm [C:\eclipse\workspace\JotaList\view\login\login.cfm] not found;Page /view/login/login.cfm [C:\eclipse\workspace\JotaList\view\login\login.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310):310
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-1","05/14/2015","12:55:21","",";Page /password/reset/index.cfm [C:\eclipse\workspace\JotaList\password\reset\index.cfm] not found;Page /password/reset/index.cfm [C:\eclipse\workspace\JotaList\password\reset\index.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310):310
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-10","05/14/2015","13:02:12","",";Page /password/reset/index.cfm [C:\eclipse\workspace\JotaList\password\reset\index.cfm] not found;Page /password/reset/index.cfm [C:\eclipse\workspace\JotaList\password\reset\index.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312):312
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-6","05/14/2015","13:02:53","",";Page /password/reset/index.cfm [C:\eclipse\workspace\JotaList\password\reset\index.cfm] not found;Page /password/reset/index.cfm [C:\eclipse\workspace\JotaList\password\reset\index.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312):312
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-6","05/14/2015","13:12:30","",";Page /password/reset/index.cfm [C:\eclipse\workspace\JotaList\password\reset\index.cfm] not found;Page /password/reset/index.cfm [C:\eclipse\workspace\JotaList\password\reset\index.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312):312
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-9","05/14/2015","13:12:48","",";Page /password/reset/index.cfm [C:\eclipse\workspace\JotaList\password\reset\index.cfm] not found;Page /password/reset/index.cfm [C:\eclipse\workspace\JotaList\password\reset\index.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312):312
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-6","05/15/2015","15:38:10","",";Page /view/login/index.cfm [C:\eclipse\workspace\JotaList\view\login\index.cfm] not found;Page /view/login/index.cfm [C:\eclipse\workspace\JotaList\view\login\index.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310):310
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-1","05/15/2015","15:38:14","",";Page /controller/passwordReset.cfm [C:\eclipse\workspace\JotaList\controller\passwordReset.cfm] not found;Page /controller/passwordReset.cfm [C:\eclipse\workspace\JotaList\controller\passwordReset.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312):312
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-4","05/15/2015","15:39:09","",";Page /controller/passwordReset.cfm [C:\eclipse\workspace\JotaList\controller\passwordReset.cfm] not found;Page /controller/passwordReset.cfm [C:\eclipse\workspace\JotaList\controller\passwordReset.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310):310
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"
+"ERROR","http-bio-8080-exec-10","05/15/2015","15:39:12","",";Page /controller/passwordReset.cfm [C:\eclipse\workspace\JotaList\controller\passwordReset.cfm] not found;Page /controller/passwordReset.cfm [C:\eclipse\workspace\JotaList\controller\passwordReset.cfm] not found
+	at railo.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:870):870
+	at railo.runtime.PageContextImpl.doInclude(PageContextImpl.java:905):905
+	at railo.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:39):39
+	at railo.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:19):19
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2212):2212
+	at railo.runtime.PageContextImpl.execute(PageContextImpl.java:2179):2179
+	at railo.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:331):331
+	at railo.loader.servlet.CFMLServlet.service(CFMLServlet.java:29):29
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728):728
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51):51
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243):243
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222):222
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123):123
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171):171
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100):100
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953):953
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408):408
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041):1041
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603):603
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312):312
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source):-1
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source):-1
+	at java.lang.Thread.run(Unknown Source):-1
+"

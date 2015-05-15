@@ -1,1 +1,1 @@
-<cfdump var="Hello World!">
+<cflocation url="controller/main.cfm" />
