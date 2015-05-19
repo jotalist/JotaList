@@ -62,7 +62,7 @@
 						</a>
 					</li>
 					<li class="media">
-						<a href="/">
+						<a href="/view/signup.cfm">
 							Sign up now
 						</a>
 					</li>
