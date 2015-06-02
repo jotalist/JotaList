@@ -33,22 +33,87 @@
 <!--- </head> --->
 <body>
 <div class="container">
-	<div class="UserView">
-		<div class="contents">
-			<div class="col-md-12 lead">
-			View Profile
-			</div>
-
-			<div class="row">
-
-			</div><!-- row -->
 
 
-		</div> <!-- contents -->
-	</div><!-- useredit -->
-</div><!--/container-->
+<div class="UserEdit">
+<div class="contents">
+<div class="col-md-12 lead">View Profile</div>
+ <div class="row">
+      <!-- left column -->
+      <div class="col-md-3">
+        <div class="text-center">
+
+		<div id="img-preview-block" class="img-circle avatar avatar-original center-block" style="background-size:cover;
+                background-image:url(http://lorempixel.com/200/200/people/9/)"></div>
+                <br>
+                <ul class="list-inline ratings text-center" title="Ratings">
+                <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
+                <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
+                <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
+                <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
+                <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
+              </ul>
+        </div>
+      </div>
+
+	 <!-- edit form column -->
+     <div class="col-md-9 personal-info">
+        <div class="alert alert-info alert-dismissable">
+          <a class="panel-close close" data-dismiss="alert">×</a>
+          <i class="fa fa-coffee"></i>
+          This is an <strong>.alert</strong>. Use this to show important messages to the user.
+        </div>
+        <h2>Jane Doe</h2>
+
+        <p><strong>About: </strong> Web Designer / UI Expert. </p>
+			  <p><strong>Company: </strong>CompanyXYZ</p>
+			  <p><strong>Email: </strong> JaneDoe@CompanyXYZ.com</p>
+			  <p><strong>UserName: </strong> JaneUser</p>
+              <p><strong>Hobbies: </strong> Read, out with friends, listen to music, draw and learn new things. </p>
+              <p><strong>Skills: </strong>
+                <span class="label label-info tags">html5</span>
+                <span class="label label-info tags">css3</span>
+                <span class="label label-info tags">jquery</span>
+                <span class="label label-info tags">bootstrap3</span>
+              </p>
 
 
+
+
+		</div>
+		</div>
+		<div class="row" style="padding: 35px 30px">
+<div class="clearfix"></div>
+            <div class=" col-md-4">
+              <h2><strong> 20,7K </strong></h2>
+              <p><small>Followers</small></p>
+              <button class="btn btn-success btn-block"><span class="fa fa-plus-circle"></span> Follow </button>
+            </div>
+            <!--/col-->
+            <div class="col-md-4">
+              <h2><strong>245</strong></h2>
+              <p><small>Following</small></p>
+              <button class="btn btn-info btn-block"><span class="fa fa-user"></span> View Profile </button>
+            </div>
+            <!--/col-->
+            <div class="col-md-4">
+              <h2><strong>43</strong></h2>
+              <p><small>Snippets</small></p>
+              <button type="button" class="btn btn-primary btn-block"><span class="fa fa-gear"></span> Options </button>
+            </div>
+			<div class="form-group">
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+<!--/container-->
 
 
 
